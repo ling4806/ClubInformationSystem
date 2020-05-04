@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<include
+    layout="@layout/topbar_two_action"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:ems="14"
+            android:hint="活动标题"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/mediumTxt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:id="@+id/et_information"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:ems="14"
+            android:hint="社团活动信息"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/mediumTxt" />
+    </TableRow>
+
+</TableLayout>
+</LinearLayout>

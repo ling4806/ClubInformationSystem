@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ClubInformation</string>
+    <string name="version" translatable="false">版本号：3.0.0</string>
+    <string name="releaseDate">发布时间：2020年02月27日</string>
+    <string name="action_search_phonenumber">搜索</string>
+    <string name="action_add_phonenumber">新增</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+</resources>
